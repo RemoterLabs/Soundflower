@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Cycling74.driver.Soundflower</string>
+	<string>com.remoterlabs.driver.soundflower</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -116,7 +116,7 @@
 				</dict>
 			</array>
 			<key>CFBundleIdentifier</key>
-			<string>com.Cycling74.driver.Soundflower</string>
+			<string>com.remoterlabs.driver.soundflower</string>
 			<key>IOClass</key>
 			<string>com_cycling74_driver_SoundflowerDevice</string>
 			<key>IOMatchCategory</key>

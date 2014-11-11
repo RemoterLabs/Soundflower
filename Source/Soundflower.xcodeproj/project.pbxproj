@@ -101,7 +101,7 @@
 				ORGANIZATIONNAME = "Cycling '74";
 				TargetAttributes = {
 					222ADFEB1862531600C9BE56 = {
-						DevelopmentTeam = GBXXCFCVW5;
+						DevelopmentTeam = TH3BFTR4RK;
 					};
 				};
 			};
@@ -229,6 +229,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(SRCROOT)/../Build/InstallerRoot";
@@ -242,9 +244,10 @@
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				INSTALL_PATH = /System/Library/Extensions;
-				MODULE_NAME = com.Cycling74.driver.Soundflower;
+				MODULE_NAME = com.remoterlabs.driver.soundflower;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -255,6 +258,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(SRCROOT)/../Build/InstallerRoot";
@@ -264,9 +269,10 @@
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				INSTALL_PATH = /System/Library/Extensions;
-				MODULE_NAME = com.Cycling74.driver.Soundflower;
+				MODULE_NAME = com.remoterlabs.driver.soundflower;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
